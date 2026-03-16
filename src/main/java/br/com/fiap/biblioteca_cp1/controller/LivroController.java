@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class LivroController {
     @GetMapping("/livros")
     public String listarLivros() {
-        return "Lista de livros dísponiveis";
+        return "Lista de livros dísponiveis: Saga Harry Potter, Amanhecer, Java for Dummies";
     }
 
     @GetMapping("/livros/destaque")
     public String listarDestaque() {
-        return "Livro destaque do mês: A Revolução dos Bichos";
+        return "Livro destaque do mês: Java for Dummies";
     }
 }
